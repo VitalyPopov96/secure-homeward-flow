@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import WalletConnect from "@/components/WalletConnect";
 import SendMoneyForm from "@/components/SendMoneyForm";
 import Logo from "@/components/Logo";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useAccount } from 'wagmi';
 
