@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import WalletConnect from "@/components/WalletConnect";
 import SendMoneyForm from "@/components/SendMoneyForm";
-import { Shield, ArrowLeft } from "lucide-react";
+import Logo from "@/components/Logo";
+import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useAccount } from 'wagmi';
 
@@ -20,10 +21,7 @@ const SendMoney = () => {
                 Back to Home
               </Button>
             </Link>
-            <div className="flex items-center gap-2">
-              <Shield className="h-6 w-6 text-primary" />
-              <span className="text-xl font-bold text-foreground">Private Remittance</span>
-            </div>
+            <Logo size="md" showText={true} />
           </div>
         </div>
       </header>
